@@ -8,8 +8,10 @@ function LatestMarvel() {
         async function fetchBuildings() {
             try {
                 const response = await fetch('/Buildings.json');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch buildings');
+                }
                 const data = await response.json();
-                                                                                             
                 setBuildings(data.locations);
             } catch (error) {
                 console.error('Error fetching buildings:', error);
@@ -36,12 +38,10 @@ function LatestMarvel() {
                     <div key={building.id}>
                         <img src={building.building_image} alt="building" />
                         <p>{building.street} <br />{building.building_name}</p>
-                       
                     </div>
                 ))}
-               
             </div>
-            <p className="scroll">Scroll <i class="fa-solid fa-arrow-right"></i> </p>
+            <p className="scroll">Scroll <i className="fa-solid fa-arrow-right"></i> </p>
         </div>
     );
 }

@@ -7,7 +7,7 @@ function LatestMarvel() {
     useEffect(() => {
         async function fetchBuildings() {
             try {
-                const response = await fetch('../../../../Buildings.json');
+                const response = await fetch('/Buildings.json');
                 const data = await response.json();
                                                                                              
                 setBuildings(data.locations);

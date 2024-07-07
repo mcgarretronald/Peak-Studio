@@ -11,12 +11,14 @@ function Portfolio() {
     useEffect(() => {
         async function fetchBuildings() {
             try {
-                const response = await fetch('/Buildings.json'); // Assuming Buildings.json is in the public folder
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
+                const response = await fetch('/Buildings.json'); // Ensure this path is correct
+                const text = await response.text();
+                try {
+                    const data = JSON.parse(text);
+                    setBuildings(data.locations);
+                } catch (jsonError) {
+                    throw new Error(`Response is not valid JSON: ${text}`);
                 }
-                const data = await response.json();
-                setBuildings(data.locations);
             } catch (error) {
                 console.error('Error fetching buildings:', error);
                 setError('Failed to fetch building data. Please try again later.');

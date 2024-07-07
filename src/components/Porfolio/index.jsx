@@ -12,8 +12,12 @@ function Portfolio() {
         async function fetchBuildings() {
             try {
                 const response = await fetch(link);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const data = await response.json();
-                setBuildings(data);
+                console.log("Fetched data:", data); // Log the fetched data
+                setBuildings(data.locations);
             } catch (error) {
                 console.error('Error fetching buildings:', error);
             }

@@ -16,7 +16,7 @@ function Portfolio() {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
-                console.log("Fetched data:", data); // Log the fetched data
+                console.log("Fetched data:", data);
                 setBuildings(data.locations);
             } catch (error) {
                 console.error('Error fetching buildings:', error);

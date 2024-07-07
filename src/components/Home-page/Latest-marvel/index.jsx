@@ -5,16 +5,16 @@ function LatestMarvel() {
     const [buildings, setBuildings] = useState([]);
 
     useEffect(() => {
-        async function fetchBuildings() {
-            try {
-                const response = await fetch('/Buildings.json');
-                const data = await response.json();
-                                                                                             
-                setBuildings(data.locations);
-            } catch (error) {
-                console.error('Error fetching buildings:', error);
-            }
+    const fetchBuildings = async () => {
+        try {
+            const response = await fetch('/Buildings.json');
+            const data = await response.json();
+
+            setBuildings(data.locations);
+        } catch (error) {
+            console.error('Error fetching buildings:', error);
         }
+    };
         
         fetchBuildings(); 
     }, []);

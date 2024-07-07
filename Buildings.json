@@ -1,0 +1,82 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "building_name": "Bank of America Building",
+      "building_image": "https://images.pexels.com/photos/21656859/pexels-photo-21656859/free-photo-of-bank-of-america-building-in-maryland.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Kenyatta Avenue"
+    },
+    {
+      "id": 2,
+      "building_name": "Nairobi Gallery",
+      "building_image": "https://images.pexels.com/photos/1841182/pexels-photo-1841182.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Moi Avenue"
+    },
+    {
+      "id": 3,
+      "building_name": "Ambassadeur Hotel",
+      "building_image": "https://images.pexels.com/photos/1169374/pexels-photo-1169374.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Tom Mboya Street"
+    },
+    {
+      "id": 4,
+      "building_name": "The Greenhouse",
+      "building_image": "https://images.pexels.com/photos/2263679/pexels-photo-2263679.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Ngong Road"
+    },
+    {
+      "id": 5,
+      "building_name": "Co-operative Bank House",
+      "building_image": "https://images.pexels.com/photos/1841180/pexels-photo-1841180.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Haile Selassie Avenue"
+    },
+    {
+      "id": 6,
+      "building_name": "K-Rep Centre",
+      "building_image": "https://images.pexels.com/photos/2361520/pexels-photo-2361520.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Koinange Street"
+    },
+    {
+      "id": 7,
+      "building_name": "ICEA Building",
+      "building_image": "https://images.pexels.com/photos/3251932/pexels-photo-3251932.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Kimathi Street"
+    },
+    {
+      "id": 8,
+      "building_name": "14 Riverside",
+      "building_image": "https://images.pexels.com/photos/2874064/pexels-photo-2874064.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Riverside Drive"
+    },
+    {
+      "id": 9,
+      "building_name": "Rahimtulla Tower",
+      "building_image": "https://images.pexels.com/photos/694666/pexels-photo-694666.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Valley Road"
+    },
+    {
+      "id": 10,
+      "building_name": "University of Nairobi Towers",
+      "building_image": "https://images.pexels.com/photos/2537377/pexels-photo-2537377.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "University Way"
+    },
+    {
+      "id": 11,
+      "building_name": "Ambassadeur Hotel",
+      "building_image": "https://images.pexels.com/photos/1169374/pexels-photo-1169374.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Tom Mboya Street"
+    },
+    {
+      "id": 12,
+      "building_name": "Nairobi Gallery",
+      "building_image": "https://images.pexels.com/photos/1841182/pexels-photo-1841182.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Moi Avenue"
+    },
+    {
+      "id": 13,
+      "building_name": "14 Riverside",
+      "building_image": "https://images.pexels.com/photos/2874064/pexels-photo-2874064.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "street": "Riverside Drive"
+    }
+  ]
+}

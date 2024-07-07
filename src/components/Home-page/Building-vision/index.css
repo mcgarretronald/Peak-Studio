@@ -1,0 +1,33 @@
+.buildvision-title, .buildvision-subtitle{
+    text-align: center;
+  
+}
+.buildvision-subtitle{
+    font-weight: 300;
+}
+.buildvissionbtn{
+    
+    margin: 2% 38%;
+    padding: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .buildvision-title{
+        font-size: 25px;
+      
+    }
+    .buildvision-subtitle{
+        font-size: 15px;
+    }
+    .buildvissionbtn{
+   
+        margin: 2% 2%;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 1287px) {
+    .buildvissionbtn{
+   
+        margin: 2% 25%;
+        padding: 20px;
+    }
+}

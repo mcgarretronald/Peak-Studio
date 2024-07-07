@@ -1,0 +1,41 @@
+.portfolio-image{
+    background-image: url(https://images.pexels.com/photos/5962696/pexels-photo-5962696.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.fetcheddata{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 5%;
+    justify-content: center;
+}
+.fetcheddata div{
+      border-radius: 20px;
+    padding: 10px;
+}
+.fetcheddata img{
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+}
+.fetcheddata p{
+    text-align: center;
+}
+@media only screen and (min-width: 767px) and (max-width: 1124px) {
+    .fetcheddata{
+        flex-direction: column;
+    }
+    .fetcheddata img{
+        width: 100%;
+        height: auto;
+    }
+    .fetcheddata div{
+        padding: 20px;
+    }
+}

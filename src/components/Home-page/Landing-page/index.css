@@ -1,0 +1,79 @@
+.Beyond-walls {
+    text-align: center;
+    display: inline-block;
+    margin: 5% 35% 0%;
+    border: 1px solid orangered;
+    border-radius: 30px;
+    padding: 0px 15px;
+    color: orangered;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.arch {
+    font-weight: 900;
+    text-align: center;
+    font-size: 100px;
+}
+
+.arch-txt {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(113, 112, 112);
+}
+
+.image {
+    margin: 5% 15%;
+    height: 600px;
+    background-image: url(https://images.pexels.com/photos/18362066/pexels-photo-18362066/free-photo-of-baps-shri-swaminarayan-mandir-temple-in-atlanta-united-states.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .Beyond-walls {
+        margin: 15% 8% 1%;
+        font-size: 16px;
+    }
+
+    .arch {
+
+        font-size: 35px;
+    }
+
+    .arch-txt {
+
+        font-size: 16px;
+
+    }
+    .image {
+        margin: 5% 5%; 
+        height: 500px;
+    }
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1124px) {
+    .Beyond-walls {
+        margin: 15% 25% 1%;
+        font-size: 20px;
+    }
+
+    .arch {
+
+        font-size: 80px;
+    }
+
+    .arch-txt {
+
+        font-size: 26px;
+
+    }
+    .image {
+        margin: 5% 5%; 
+        height: 700px;
+    }
+}

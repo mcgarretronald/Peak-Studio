@@ -1,0 +1,35 @@
+.latest-marvel{
+  
+    margin: 5% 10%;
+}
+.latest-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest-heading p{
+    color: grey;
+    font-size: 13px;
+}
+.latest-heading section button{
+    padding: 10px 30px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+.buildings{
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+.buildings img{
+    height: 400px;
+    width: 300px;
+}
+.buildings p{
+    
+    text-align: center;
+}
+.buildings::-webkit-scrollbar{
+   width: 0;
+}

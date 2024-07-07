@@ -1,0 +1,37 @@
+.aboutus{
+  
+    display: flex;
+    justify-content: space-around;
+padding-bottom: 30px;
+
+    gap: 50px;
+    background-color: #F5F7F8;
+    
+}
+.aboutus-text{
+    margin-top: 10%;
+   
+}
+.aboutus-text h1{
+    padding: 10px 0px;
+}
+.aboutus-image{
+    background-image: url(https://images.pexels.com/photos/1722183/pexels-photo-1722183.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+    margin-top: 5%;
+    border-radius: 20px;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .aboutus{
+        flex-direction: column;
+    }
+    .aboutus-image{
+        width: 100%;
+    }
+}

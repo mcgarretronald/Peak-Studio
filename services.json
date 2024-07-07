@@ -1,0 +1,48 @@
+{
+    "Services": [
+        {
+            "id": 1,
+            "name": "Architectural Design",
+            "description": "Tailored Architectural designs for residential, commercial and institutional projects.",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3W8so2yINxU5v0ZUZUJNLaVKw5pnpA3zgEH47ieZpdnVpLJ8y"
+        },
+        {
+            "id": 2,
+            "name": "Interior Design",
+            "description": "Crafting interior spaces that harmonize with the Architectural Vision",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTvIsSmxbvUL_XZEUkzpzQhYwxIi5o_uL2xy5fNIcLHG_V5qjrU"
+        },
+        {
+            "id": 3,
+            "name": "Sustainable Design",
+            "description": "Speciallised expertise in sustainable design practices .",
+            "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQBuO9_RDlQ4Lpwglfkfk6WlWNsQEYTdGoiAN-PLg2dEut2avZr"
+        },
+        {
+            "id": 4,
+            "name": "Urban Planning",
+            "description": "Collaborative urban planning services aimed at creating vibrant, livable communities",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-QDugqNsdjk7VuUgkk7FM3wgn2hyi_3RrmIaFYzVc8UjGJpyz"
+        },
+        {
+            "id": 5,
+            "name": "Feasibility Studies",
+            "description": "Conducting horough feasibility studies to asses the viability",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzoiUOr9LdULkS6wLU_Qs4fUGoj47Cd3-ciENsVXNO7XwQsojG"
+        },
+        {
+            "id": 6,
+            "name": "3D Visualization",
+            "description": "Utilising advanced 3D visualization Techniques to bring architectural designs to life.",
+            "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTbafKtb2kKA6Qu-hgXwWlZNypQyfJafo1YJPlw7FH9DEA-42GO"
+        },
+        {
+            "id": 7,
+            "name": "Historic Preservation",
+            "description": "Expertise in historic preservation and adaptive  reuse breathing.",
+            "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSpHiHdfcDTyWF8XcdGl8PATftouUGOmvAEOPvXIVhWXoyC5Wjn"
+        }
+    ]
+
+
+}

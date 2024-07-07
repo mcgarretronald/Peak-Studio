@@ -1,0 +1,193 @@
+.navigationBar {
+    display: flex;
+    border: 1px solid grey;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #F5F7F8;
+}
+
+.navigationBar img {
+    height: 20px;
+    width: 20px;
+}
+
+.logoname {
+    display: inline;
+    color: orangered;
+    position: absolute;
+    font-size: 20px;
+}
+
+.navlinks {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.navlinks section ul {
+    display: flex;
+    padding-top: 10px;
+    list-style: none;
+}
+
+.navlinks section ul li {
+    padding: 0px 30px;
+}
+
+.navlinks section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.navlinks section ul li a:hover {
+    transition: 0.5s ease;
+    color: blue;
+    font-size: 15px;
+  
+}
+
+.navlinks section button {
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#bars,
+#x-mark {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    #bars {
+        display: inline;
+        position: absolute;
+        right: 15px;
+        font-size: 30px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #x-mark {
+        display: inline;
+        color: white;
+        position: absolute;
+        font-size: 40px;
+        top: 40px;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    .navlinks section ul li a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .navigationBar {
+        justify-content: space-between;
+        padding: 30px;
+        border: 1px solid grey;
+    }
+
+    .navlinks.open {
+        right: 0;
+    }
+
+    .navlinks {
+        border: solid;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        transition: right 0.3s ease;
+        bottom: 0;
+        background-color: #050505;
+    }
+
+    .navlinks section ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .navlinks section ul li {
+        padding: 20px 0px;
+    }
+
+    .navlinks section ul li a {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1124px) {
+    #bars {
+        display: inline;
+        position: absolute;
+        right: 15px;
+        font-size: 30px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    #x-mark {
+        display: inline;
+        color: white;
+        position: absolute;
+        font-size: 40px;
+        top: 40px;
+        left: 20px;
+        cursor: pointer;
+    }
+
+    .navlinks section ul li a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .navigationBar {
+        justify-content: space-between;
+        padding: 30px;
+        border: 1px solid grey;
+    }
+
+    .navlinks.open {
+        right: 0;
+    }
+
+    .navlinks {
+        border: solid;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        transition: right 0.3s ease;
+        bottom: 0;
+        background-color: #050505;
+    }
+
+    .navlinks section ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .navlinks section ul li {
+        padding: 20px 0px;
+    }
+
+    .navlinks section ul li a {
+        color: white;
+        font-size: 20px;
+    }
+}

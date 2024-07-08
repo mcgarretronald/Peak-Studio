@@ -28,13 +28,13 @@ export default function Buildings() {
 
         fetchBuildings();
 
-        // Scroll to the top when new data is fetched
+       
         window.scrollTo(0, 0);
 
     }, []); 
 
     useEffect(() => {
-        // Scroll to the top when new data is fetched
+       
         window.scrollTo(0, 0);
     }, [buildings]); 
 

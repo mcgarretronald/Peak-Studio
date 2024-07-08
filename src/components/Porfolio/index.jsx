@@ -4,6 +4,7 @@ import NavigationBar from "../Navigation-bar";
 import Footer from "../Footer";
 import BuildVision from "../Home-page/Building-vision";
 
+
 function Portfolio() {
     const [buildings, setBuildings] = useState([]);
     const link = '/Buildings.json';
@@ -21,6 +22,7 @@ function Portfolio() {
             } catch (error) {
                 console.error('Error fetching buildings:', error);
             }
+            window.scrollTo(0, 0);
         }
 
         fetchBuildings();

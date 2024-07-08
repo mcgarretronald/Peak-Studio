@@ -66,72 +66,72 @@
 
 @media only screen and (max-width: 767px) {
     #bars {
-        display: inline;
-        position: absolute;
-        right: 15px;
-        font-size: 30px;
-        text-align: center;
-        cursor: pointer;
+      display: inline;
+      position: absolute;
+      right: 15px;
+      font-size: 30px;
+      text-align: center;
+      cursor: pointer;
     }
-
+  
     #x-mark {
-        display: inline;
-        color: white;
-        position: absolute;
-        font-size: 40px;
-        top: 40px;
-        left: 20px;
-        cursor: pointer;
+      display: inline;
+      color: white;
+      position: absolute;
+      font-size: 40px;
+      top: 40px;
+      left: 20px;
+      cursor: pointer;
     }
-
+  
     .navlinks section ul li a:hover {
-        text-decoration: underline;
-        color: white;
+      text-decoration: underline;
+      color: white;
     }
-
+  
     .navigationBar {
-       
-        justify-content: space-between;
-        padding: 30px;
-        border: 1px solid grey;
+      justify-content: space-between;
+      padding: 30px;
+      border: 1px solid grey;
     }
-
+  
     .navlinks.open {
-        right: 0;
+      right: 0;
     }
+  
     .navlinks.close {
-        right: -100%;
-        display: none;
+      right: -100%;
+      display: none;
     }
-
+  
     .navlinks {
-        border: solid;
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-        position: absolute;
-        top: 0;
-        right: -100%;
-        transition: right 0.3s ease;
-        bottom: 0;
-        background-color: #050505;
+      border: solid;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      position: absolute;
+      top: 0;
+      right: -100%;
+      transition: right 0.3s ease;
+      bottom: 0;
+      background-color: #050505;
     }
-
+  
     .navlinks section ul {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10%;
     }
-
+  
     .navlinks section ul li {
-        padding: 20px 0px;
+      padding: 20px 0px;
     }
-
+  
     .navlinks section ul li a {
-        color: white;
-        font-size: 20px;
+      color: white;
+      font-size: 20px;
     }
-}
+  }
 
 @media only screen and (min-width: 767px) and (max-width: 1124px) {
     #bars {

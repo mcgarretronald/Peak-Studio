@@ -1,7 +1,12 @@
 import React from "react";
 import "./index.css";
+import { useEffect } from "react";
 import NavigationBar from "../Navigation-bar";
 export default function Contact() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <>

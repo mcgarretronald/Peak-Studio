@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.bundle.min"
+import Buildings from './components/Porfolio/buildings.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path:'/contactus',
     element:<Contact/>
+  },
+  {
+    path: "/buildings",
+    element: <Buildings />,
   }
 ]);
 

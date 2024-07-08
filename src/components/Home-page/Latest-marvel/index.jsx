@@ -28,7 +28,7 @@ function LatestMarvel() {
                     <p>Introducing our Latest Architectural Marvel - Pushing Boundaries and Redefining Architectural Excellence</p>
                 </section>
                 <section>
-                    <Link  to={'/portfolio'}><button type="button">View more</button></Link>
+                    <Link  to={'/buildings'}><button type="button">View more</button></Link>
                 </section>
             </div>
 

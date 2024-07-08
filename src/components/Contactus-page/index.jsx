@@ -2,6 +2,8 @@ import React from "react";
 import "./index.css";
 import { useEffect } from "react";
 import NavigationBar from "../Navigation-bar";
+import BuildVision from "../Home-page/Building-vision";
+import Footer from "../Footer";
 export default function Contact() {
 
     useEffect(() => {
@@ -82,6 +84,8 @@ export default function Contact() {
                 </form>
 
             </div>
+            <BuildVision />
+            <Footer />
 
 
         </>

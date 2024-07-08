@@ -90,6 +90,7 @@
     }
 
     .navigationBar {
+        overflow-x: hidden;
         justify-content: space-between;
         padding: 30px;
         border: 1px solid grey;

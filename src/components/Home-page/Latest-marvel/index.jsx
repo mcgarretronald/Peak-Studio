@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './index.css';
+import { Link } from "react-router-dom";
 
 function LatestMarvel() {
     const [buildings, setBuildings] = useState([]);
@@ -27,7 +28,7 @@ function LatestMarvel() {
                     <p>Introducing our Latest Architectural Marvel - Pushing Boundaries and Redefining Architectural Excellence</p>
                 </section>
                 <section>
-                    <button type="button">View more</button>
+                    <Link  to={'/portfolio'}><button type="button">View more</button></Link>
                 </section>
             </div>
 

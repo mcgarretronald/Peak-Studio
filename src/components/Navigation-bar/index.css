@@ -90,7 +90,7 @@
     }
 
     .navigationBar {
-      background-color: red;
+       
         justify-content: space-between;
         padding: 30px;
         border: 1px solid grey;
@@ -98,6 +98,10 @@
 
     .navlinks.open {
         right: 0;
+    }
+    .navlinks.close {
+        right: -100%;
+        display: none;
     }
 
     .navlinks {

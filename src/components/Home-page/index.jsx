@@ -10,7 +10,7 @@ import Footer from "../Footer";
 function HomePage(){
     return(
         <>
-        <NavigationBar/>
+        {/* <NavigationBar/> */}
         <LandingPage/>
         <CollaborativeApproach/>
         <PeakstudioJourney/>

@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+import Error from './components/Error/index.jsx'
 import Services from './components/Service-/index.jsx'
 import Aboutpage from './components/About-us/index.jsx'
 import Portfolio from './components/Porfolio/index.jsx'
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+    errorElement: <Error/>
   },
   {
     path: "/aboutus",
